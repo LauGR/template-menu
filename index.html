@@ -50,92 +50,120 @@
                     </ul>
                 </nav>
 
-                <nav class="navbar navbar-default navbar-static-top">
-                    <div class="container">
-                        <ul>
+
+                <nav class="navbar navbar-default" role="navigation">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            				<span class="sr-only">Toggle navigation</span>
+            				<span class="icon-bar"></span>
+            				<span class="icon-bar"></span>
+            				<span class="icon-bar"></span>
+            			</button>
+                            <a class="navbar-brand" href="#"><span class="logo">IXION</span></a>
+                        </div>
+
+
+                        <ul class="nav navbar-nav navbar-right divers">
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DIVERSITY<span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Diversity <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li>Testimonials</li>
-                                    <li>No Sidebar</li>
-                                    <li>Image Alignment and Styles</li>
-                                    <li>HTML Elements</li>
+                                    <li><a href="#">Testimonials</a></li>
+                                    <li><a href="#">No Sidebar</a></li>
+                                    <li><a href="#">Image Alignment and Styles</a></li>
+                                    <li><a href="#">HTML Elements</a></li>
                                 </ul>
+                            </li>
+                            <li><a href="#">ALUMNI</a></li>
+                            <li><a href="#">FACULTY</a></li>
+                            <li><a href="#">STUDENTS</a></li>
+                            <li><a href="#">NEWS</a></li>
+
                         </ul>
                     </div>
+            </div>
+            </nav>
 
-                </nav>
-
-                <!-- =================== End Navbar ================= -->
+            <!-- =================== End Navbar ================= -->
 
             </div>
     </header>
     <!-- =================== End Header ================= -->
     <div class="row">
 
-        <div class="col-md-12">
-            <img src="img/cropped-bookshelf.jpg" alt="desktop">
-            <p class="firstp"> For non-profits,organizations,and schools</p>
-            <p class="secondp"><a href="#">CALL-TO-ACTION BUTTON</a></p>
+        <div class="col-xs-12 col-sm-12">
+            <div class="organizations">
+                <p class="firstp"> For non-profits,organizations,and schools</p>
+                <button class="btn2">CALL-TO-ACTION BUTTON</button>
+            </div>
         </div>
 
-        <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                    <img src="img/language-school-834138_1920.jpg"  alt="Language school">                    
-                </a>
-            <p class="3img">INTRODUCING OUR FULBRIGHT SCHOLARS FOR 2016</p>
+        <div class="col-xs-4 col-sm-4">
+            <div class="school">
+                <img src="img/language-school-834138_1920.jpg" alt="Language school" class="threeimg">
+
+                <p class="timg">INTRODUCING OUR FULBRIGHT SCHOLARS FOR 2016</p>
+            </div>
         </div>
 
-        <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                    <img src="img/man-140547_1920.jpg"  alt="old man">
-                </a>
-            <p class="3img">MEET OUR NEW CHIEF DIVERSTY AND INCLUSION OFFICER</p>
+        <div class="col-xs-4 col-sm-4">
+            <div class="old">
+                <img src="img/man-140547_1920.jpg" alt="old man" class="threeimg">
+
+                <p class="timg">MEET OUR NEW CHIEF DIVERSTY AND INCLUSION OFFICER</p>
+            </div>
         </div>
 
-        <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                    <img src="img/cropped-school-bell-tower-1295714.jpg"  alt="Bell Tower">
-                </a>
-            <p class="3img">A NEW ALUMI SPACE IS COMING IN 2016</p>
-        </div>
+        <div class="col-xs-4 col-sm-4">
+            <div class="bell">
+                <img src="img/cropped-school-bell-tower-1295714.jpg" alt="Bell Tower" class="threeimg">
 
+                <p class="timg">A NEW ALUMI SPACE IS COMING IN 2016</p>
+            </div>
+        </div>
 
     </div>
 
     <!-- =================Start Recend Post ==================== -->
 
-    <h2>Recent Posts</h2>
-    <div class="col-sm-3 offset-sm-1 blog-sidebar">
-        <div class="sidebar-module sidebar-module-inset">
-            <h3>I'll never forget my first day of college; my roommate became my best friend.We were inseparable. I made some
-                of the longest-lasting friendship in my days at CYU.</h3>
-            <p> Now I'm fortunate enough to work at my alma mater, and I wouldn't want to be anywhere else.</p>
-            <p> Dr. Seymour H.Quast</p>
-            <input type="text" class="form-control" placeholder="Search">
-        </div>
+    <article>
+         <aside>
+            <div class="col-sm-3 offset-sm-1 blog-sidebar">
+                <div class="sidebar-module sidebar-module-inset">
+                    <h3>I'll never forget my first day of college; my roommate became my best friend.We were inseparable. I made
+                        some of the longest-lasting friendship in my days at CYU.</h3>
+                    <p> Now I'm fortunate enough to work at my alma mater, and I wouldn't want to be anywhere else.</p>
+                    <p> Dr. Seymour H.Quast</p>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </div>
+        </aside>
+        
+        <h2>Recent Posts</h2>
+        <p class="date">JULY 20, 2016 | <span>ALUMINI,DIVERSITY,EVENTS</span></p>
+        <h3> Introducing our Fulbright Scholars for 2016</h3>
+        <p class="date"> APRIL 8, 2016 | <span> DIVERSITY,EVENTS,FACULTY </span></p>
+        <h3> Meet Our Chief Diversity and Inclusion Officer</h3>
+        <p class="date"> APRIL 6, 2016 | <span>ARTWORK</span></p>
+        <h3> One Professor's Quest for the Perfect Cuppa</h3>
+        <p class="date">APRIL 3, 2016 | <span>BOOKS</span></p>
+        <h3> Drafting Course Gets Rave Reviews from Students</h3>
+        <p class="date">APRIL 1,2016 | <span> ARTWORK</span></p>
+        <h3>Yarnworks : An Examination of Knitting Throughout History</h3>
+       
+    </article>
 
-        <article>
-            <p>JULY 20, 2016 | ALUMINI,DIVERSITY,EVENTS</p>
-            <h3> Introducing our Fulbright Scholars for 2016</h3>
-            <p> APRIL 8, 2016 | DIVERSITY,EVENTS,FACULTY</p>
-            <h3> Meet Our Chief Diversity and Inclusion Officer</h3>
-            <p> APRIL 6, 2016 | ARTWORK</p>
-            <h3> One Professor's Quest for the Perfect Cuppa</h3>
-            <p>APRIL 3, 2016 | BOOKS</p>
-            <h3> Drafting Course Gets Rave Reviews from Students</h3>
-            <p>APRIL 1,2016 | ARTWORK</p>
-            <h3>Yarnworks : An Examination of Knitting Throughout History</h3>
-        </article>
-        <!-- =================End Recend Post ==================== -->
+    <!-- =================End Recend Post ==================== -->
 
 
 
 
-        <!-- ================== Start Footer ================= -->
-        <div class="container">
+    <!-- ================== Start Footer ================= -->
+    <footer>
+        <nav class="navbar navbar-default navbar-static-bottom">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-xs-3 col-sm-3">
                     <h4>NEWS&EVENTS</h4>
                     <ul>
                         <li><a href="#">Introducing our Fulbright Scholars for 2016</a></li>
@@ -143,7 +171,7 @@
                         <li><a href="#">One Professor's Quest for the Perfect Cuppa</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xs-3 col-sm-3">
                     <h4>COMMUNITY</h4>
                     <ul>
                         <li><a href="#">Allan on Meet Our New Chief Diversity and Inclusion Officer </a></li>
@@ -151,15 +179,15 @@
 
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xs-3 col-sm-3">
                     <h4>NAVIGATION</h4>
                     <ul>
-                        <li><a href="">Diversity</a></li>
+                        <li><a href="#">Diversity</a></li>
                         <ul>
-                            <li>Testimonials</li>
-                            <li>No Sidebar</li>
-                            <li>Image Alignment and Styles</li>
-                            <li>HTML Elements</li>
+                            <li> <a href="#">Testimonials</a></li>
+                            <li><a href="#">No Sidebar</li>
+                                <li><a href="#">Image Alignment and Styles</a></li>
+                            <li><a href="#">HTML Elements</a></li>
                         </ul>
                         <li><a href="#">Alumni</a></li>
                         <li><a href="#">Faculty</a></li>
@@ -167,22 +195,24 @@
                         <li><a href="#">News</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xs-3 col-sm-3">
                     <h4>SOCIAL LINKS</h4>
                     <ul>
                         <li><a href="#">Facebook</a></li>
-                        <li><a href="#"></a>Instagram</li>
-                        <li><a href="#"></a>Twitter</li>
-                        <li><a href="#"></a>YouTube</li>
-                        <li><a href="#"></a>Google+</li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Google+</a></li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <!--=================== End Footer ==================== -->
-        <!-- ================== Start Copyright =============== -->
-        <p>BLOG AT WORDPRESS.COM.</p>
-        <!-- ================== End Copyright ================= -->
+            </div>
+        </nav>
+    </footer>
+    <!--=================== End Footer ==================== -->
+    <!-- ================== Start Copyright =============== -->
+    <p class="theend">BLOG AT WORDPRESS.COM.</p>
+    <!-- ================== End Copyright ================= -->
 </body>
 
 </html>

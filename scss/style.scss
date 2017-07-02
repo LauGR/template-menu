@@ -21,13 +21,113 @@
 
 /* ============= NAV ===================== */
 
-
-nav {
-    ul{  border: 1px inset #fff;
-        li{ 
-            a{
-                
+.navbar-brand {
+            span {
+                color: #000;
+                font-size: 30px;
+                font-weight: bold;
             }
+}
+
+
+/*================ IMG=================*/
+
+.organizations {
+    background: url(../img/cropped-bookshelf.jpg)no-repeat;
+    opacity: 0.9;
+    width: 1145px;
+    height: 500px;
+    margin-left: 385px;
+    padding-top: 280px;
+    padding-left: 42px;
+        .firstp {
+            color:#fff;
+            font-size: 35px;
+            font-weight: bold;
+            width: 700px;
         }
+        .btn2 {
+            font-size: 17px;
+            font-weight: bold;
+            width:  281px;
+            height: 58px;
+            color: #fff;
+            background-color: #d7b221;
+            border: none ;
+        }
+}
+
+.threeimg {   
+    width: 338px;
+    height: 188px;
+}
+.timg{
+ width: 280px;
+ padding-left:  40px;
+  margin-top: - 120px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}
+.school {
+    margin-left: 385px;
+}
+
+.old{
+    margin-left: 220px;
+    
+}
+
+.bell {
+    margin-left: 50px;
+}
+
+
+/* Recend Post */
+article {
+    margin-top: 100px;
+   h2{
+       color:#000;
+       font-weight: bold;
+   }
+   h3{
+       color: #202930;
+       font-weight: bold;
+   }
+.date {
+    color: #c1a79d;
+}
+span {
+    color: #d7b221;
+}
+}
+
+aside {
+    
+    
+}
+/* =============== Footer ==================*/
+
+footer {
+    h4 {
+        color: #a5a2a9;
+        font-size: 14px;
     }
+    li {
+        list-style: none;
+        width: 190px;
+        margin-top: 10px;
+        margin-left: -40px;
+    }
+    a {
+        color: #272956;
+        
+    }
+}
+
+.theend {
+    color :#aab9e0;
+    width: 196px;
+    margin-left: 440px;
+    margin-top: 110px;
 }
